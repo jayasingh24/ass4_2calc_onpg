@@ -1,6 +1,12 @@
-.container{
-    text-align: center;
+.container1{
+    float: left;
     margin-top:40px;
+    margin-left: 50px;
+}
+.container2{
+    float: right;
+    margin-top:40px;
+    margin-right: 50px;
 }
 
 table{

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two calculator at the same page</title>
+    <link rel="stylesheet" href="calculator2.css">
+</head>
+<body>
+    <div id="one " class="container1">
+        <h1>Calculator 1 </h1>
+
+        <div class="calculator">
+            <input type="text" name="input_screen" id="display1">
+            <table>
+                <tr>
+                    <td><button onclick="dis1('(')">(</button></td>
+                    <td><button onclick="dis1(')')">)</button></td>
+                    <td><button onclick="clr1()">C</button></td>
+                    <td><button onclick="back1()">back</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dis1('9')">9</button></td>
+                    <td><button onclick="dis1('8')">8</button></td>
+                    <td><button onclick="dis1('7')">7</button></td>
+                    <td><button onclick="dis1('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dis1('6')">6</button></td>
+                    <td><button onclick="dis1('5')">5</button></td>
+                    <td><button onclick="dis1('4')">4</button></td>
+                    <td><button onclick="dis1('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dis1('3')">3</button></td>
+                    <td><button onclick="dis1('2')">2</button></td>
+                    <td><button onclick="dis1('1')">1</button></td>
+                    <td><button onclick="dis1('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="dis1('0')">0</button></td>
+                    <td><button onclick="dis1('.')">.</button></td>
+                    <td><button onclick="solve1()">=</button></td>
+                    <td><button onclick="dis1('/')">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<!-- calc2 -->
+
+<div class="container2">
+    <h1>Calculator 2 </h1>
+
+    <div class="calculator">
+        <input type="text" name="input_screen" id="display2">
+        <table>
+            <tr>
+                <td><button onclick="dis2('(')">(</button></td>
+                <td><button onclick="dis2(')')">)</button></td>
+                <td><button onclick="clr2()">C</button></td>
+                <td><button onclick="back2()">back</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dis2('9')">9</button></td>
+                <td><button onclick="dis2('8')">8</button></td>
+                <td><button onclick="dis2('7')">7</button></td>
+                <td><button onclick="dis2('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dis2('6')">6</button></td>
+                <td><button onclick="dis2('5')">5</button></td>
+                <td><button onclick="dis2('4')">4</button></td>
+                <td><button onclick="dis2('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dis2('3')">3</button></td>
+                <td><button onclick="dis2('2')">2</button></td>
+                <td><button onclick="dis2('1')">1</button></td>
+                <td><button onclick="dis2('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dis2('0')">0</button></td>
+                <td><button onclick="dis2('.')">.</button></td>
+                <td><button onclick="solve2()">=</button></td>
+                <td><button onclick="dis2('/')">/</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+<script src="calculator2.js"></script>
+</html>
